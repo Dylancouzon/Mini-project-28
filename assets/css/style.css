@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background-color: #a9a9a9;
+}
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.mainheader {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 40px;
+  background-image: linear-gradient(purple, #663399);
+  color: #fff;
+}
+
+.mainheader h1, p{
+  flex: 1 0 0;
+  text-align: center;
+}
+
+.snippet {
+  background-color: #d3d3d3;
+  margin-top: 50px;
+  margin-right: 1%;
+  flex: 1 0 200px;
+  padding: 10px;
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  /* Plz work */
+  align-items: stretch;
+}
+
+.snippet header{
+  font-size: 150%;
+  font-weight: bold;
+}
+
+.snippet header {
+  margin-top: -40px;
+  padding: 20px;
+  border-radius: 20px;
+  background-image: linear-gradient(purple, #663399);
+  color: #fff;
+}
+
+.code {
+  
+  padding-left:15px;
+  text-align: left;
+  background-image: linear-gradient(lightgray, #a9a9a9);;
+  font-size: 90%;
+  border-radius: 20px;
+  
+}
+
+.code:hover {
+  background-image: linear-gradient(#a9a9a9, gray);;
+}
+
+span:active {
+  background-color: grey;
+
+}
+
+footer{
+  text-align: center;
+}
